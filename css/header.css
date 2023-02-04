@@ -1,0 +1,71 @@
+.header {
+    min-height: 120px;
+    padding: 35px 0px;
+    z-index: 50;
+}
+
+.header-blok-logo {
+    line-height: 1.2;
+}
+
+.navbar-toggler {
+    background-color: #302e2e !important;
+}
+
+.item-link:hover {
+    text-decoration: var(--txd);
+}
+
+.dropdown-menu {
+    min-width: 392px;
+}
+
+.item-link+.item-link::after {
+    content: "/";
+    color: var(--white);
+}
+
+.dropdown-menu {
+    background-color: transparent !important;
+}
+
+.item-link+.item-link::after {
+    content: "/";
+}
+
+@media (max-width: 576px) {
+    .item-link {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .auto {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .button-main {
+        text-align: end;
+    }
+
+    .auto:hover {
+        cursor: auto;
+    }
+
+    .item-link+.item-link::after {
+        content: "";
+    }
+
+    .navbar-nav {
+        font-size: 14px;
+        padding: 10px;
+        text-align: end;
+    }
+
+    .nav-phone {
+        display: none;
+    }
+
+}

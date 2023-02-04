@@ -1,0 +1,35 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: var(heigth);
+    line-height: 1;
+    font-family: OpenSans;
+    color: var(--white);
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1100px;
+}

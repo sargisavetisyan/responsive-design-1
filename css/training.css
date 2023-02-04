@@ -1,0 +1,151 @@
+.training {
+    margin: 64px 0px 75px 0px;
+}
+
+.training__header h2 {
+    font-size: 50px;
+    color: #003469;
+    line-height: 1.12;
+    text-align: center;
+}
+
+.training__body {
+    margin: 43px 0px 0px 0px;
+}
+
+.about__content>*:not(:last-child) {
+    padding-bottom: 50px;
+}
+
+.item__icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #9b1818;
+}
+
+.item__content-title {
+    color: #9b1818;
+    line-height: 0.933;
+}
+
+.item__content-text {
+    color: #444 !important;
+}
+
+/* ------------form----------- */
+
+.form__body {
+    border-color: #67bc5c !important;
+    background-color: #f7f7f7;
+}
+
+.training__form>* {
+    padding: 0px 24px 0px 28px;
+}
+
+input,
+select {
+    min-height: 41px;
+    border-color: #d9d9d9;
+    background-color: #f8f8f8;
+    box-shadow: inset 0px 0px 21px 0px #0000000f;
+}
+
+input {
+    margin-bottom: 17px;
+}
+
+select {
+    margin-bottom: 37px;
+}
+
+input:focus,
+select:focus {
+    border: 3px solid #67bc5c !important;
+
+}
+
+.training__form h5 {
+    font-size: 22px;
+    line-height: 1.182;
+    color: #444 !important;
+    padding: 32px 0px;
+}
+
+.form-label {
+    font-size: 14px;
+    color: #666 !important;
+}
+
+.form-btnbutton {
+    font-size: 18px;
+    background-color: #67bc5c;
+    min-width: 220px;
+    min-height: 47px;
+    margin-bottom: 45px;
+    transition: all 0.3s ease 0s;
+}
+
+.form-btnbutton:hover {
+    background-color: #19740d;
+}
+
+@media (max-width: 992px) {
+    .training__header h2 {
+        font-size: 42px;
+    }
+
+    .training {
+        margin: 50px 0px 50px 0px;
+    }
+
+    .item__icon {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .about__content>*:not(:last-child) {
+        padding-bottom: 30px;
+    }
+
+    .item__content:last-child {
+        margin-bottom: 50px;
+    }
+
+    .item__content-title {
+        text-align: center;
+    }
+
+    .item__content-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .training__header h2 {
+        font-size: 30px;
+    }
+
+    .training {
+        margin: 30px 0px 30px 0px;
+    }
+
+    .about__content>*:not(:last-child) {
+        padding-bottom: 20px;
+    }
+
+    .item__content:last-child {
+        margin-bottom: 30px;
+    }
+
+    .item__icon img {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 576px) {
+    .training__form>* {
+        padding: 0px 10px 0px 10px;
+    }
+}

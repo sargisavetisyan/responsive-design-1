@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css2?&family=Open+Sans:wght@400;800&family=Roboto:wght@;700&display=swap);
+@import url(variable.css);
+@import url(base.css);
+@import url(header.css);
+@import url(main-blok.css);
+@import url(directory.css);
+@import url(training.css);
+@import url(reviews.css);
+@import url(application.css);
+@import url(location.css);
+@import url(contact.css);
+
+
+/* @media (max-width: 576px) {}
+
+
+@media (max-width: 768px) {}
+
+
+@media (max-width: 992px) {}
+
+
+@media (max-width: 1200px) {}
+
+
+@media (max-width: 1400px) {} */
